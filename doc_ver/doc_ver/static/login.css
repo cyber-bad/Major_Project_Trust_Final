@@ -1,0 +1,42 @@
+body {
+    background-color: #007bff;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 100px;
+    padding: 0 5px;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.google {
+    background-color: #CC3333;
+    transition: all 0.3s ease 0s;
+}
+
+.facebook {
+    background-color: #3b5998;
+    transition: all 0.3s ease 0s;
+}
+
+.google:hover,
+.facebook:hover {
+    color: #ccc;
+}
